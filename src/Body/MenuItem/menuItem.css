@@ -1,0 +1,171 @@
+.menuItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--header-bgcolor);
+    color: var(--main-txtcolor);
+    margin: 15px;
+}
+
+.menuItem:hover {
+    border-color: rgb(5, 59, 41);
+    background-color: lightgreen;
+    color: rgb(5, 59, 41);
+}
+
+.item_pic {
+    border-radius: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item_pic:hover {
+    text-shadow: 0 0 5px white;
+    background-size: 170%;
+    background-position: center;
+    border: 5px solid rgb(5, 59, 41);
+}
+
+.ingredients {
+    margin-top: 5px;
+    width: 100px;
+    height: max-content;
+    font-size: small;
+}
+
+select {
+    font-weight: bold;
+}
+
+select:hover {
+    color: rgb(5, 59, 41);
+    box-shadow: 0 0 0 2px rgb(5, 59, 41);
+    border-color: rgb(5, 59, 41)
+}
+
+@media screen and (max-width:200px) {
+    .menuItem {
+        width: 130px;
+        padding: 7px;
+        border: 3px solid transparent;
+        font-size: 0.7rem;
+        border-radius: 7px;
+    }
+
+    .menuItem h6 {
+        font-size: 0.75rem;
+        line-height: 1.2;
+        min-height: 25px;
+    }
+
+    .menuItem:hover {
+        text-shadow: 0 0 2px rgb(11, 129, 90);
+    }
+
+    .item_pic {
+        width: 70px;
+        height: 70px;
+    }
+
+    .ingredients {
+        font-size: 0.5rem;
+    }
+
+    .numberOfOrders {
+        margin-top: 9px;
+    }
+
+    select {
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width:201px) {
+    .menuItem {
+        width: 150px;
+        padding: 7px;
+        border: 3px solid transparent;
+        font-size: 0.8rem;
+        border-radius: 7px;
+    }
+
+    .menuItem h6 {
+        font-size: 0.85rem;
+        line-height: 1.2;
+        min-height: 25px;
+    }
+
+    .menuItem:hover {
+        text-shadow: 0 0 2px rgb(11, 129, 90);
+    }
+
+    .item_pic {
+        width: 80px;
+        height: 80px;
+    }
+
+    .ingredients {
+        font-size: 0.6rem;
+    }
+
+    .numberOfOrders {
+        margin-top: 10px;
+    }
+
+    select {
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .menuItem {
+        width: 200px;
+        padding: 10px;
+        font-size: 0.9rem;
+        border-radius: 10px;
+    }
+
+    .menuItem h6 {
+        font-size: 0.95rem;
+        min-height: 30px;
+    }
+
+    .item_pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .ingredients {
+        font-size: 0.75rem;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .menuItem {
+        width: 250px;
+        font-size: 1rem;
+    }
+
+    .menuItem h6 {
+        min-height: 50px;
+        font-size: 1.3rem;
+    }
+
+    .item_pic {
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+    }
+
+    .numberOfOrders {
+        margin-top: 15px;
+    }
+
+    select {
+        border-radius: 7px;
+    }
+}
