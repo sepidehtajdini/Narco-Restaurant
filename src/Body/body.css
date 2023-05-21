@@ -1,0 +1,230 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+    margin: auto;
+    position: sticky;
+    top: 75px;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px outset;
+}
+
+.title_dark {
+    background-color: var(--main-bgcolor);
+    color: var(--main-txtcolor);
+    border-color: var(--main-txtcolor);
+}
+
+.title_light {
+    background-color: var(--main-txtcolor);
+    color: var(--main-bgcolor);
+    border-color: var(--main-bgcolor);
+}
+
+.restaurant_body {
+    padding-top: 75px;
+    min-height: 100vh;
+    direction: initial;
+}
+
+.small_nav_footer {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.flex_row_div,
+.flex_column_div {
+    display: flex;
+    margin: auto;
+}
+
+.flex_row_div {
+    justify-content: center;
+}
+
+.flex_column_div {
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.instagram,
+.telegram {
+    cursor: pointer;
+}
+
+.instagram {
+    fill: rgb(207, 2, 128);
+    stroke: rgb(161, 2, 100);
+}
+
+.telegram {
+    fill: rgb(11, 126, 192);
+    stroke: rgb(1, 56, 73);
+}
+
+.meal_type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:200px) {
+    .restaurant_body {
+        padding-bottom: 25px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .title {
+        font-size: 0.7rem;
+    }
+
+    .flex_column_div {
+        width: 95%;
+        padding-bottom: 20px;
+        font-size: 0.6rem;
+    }
+
+    .telegram,
+    .instagram {
+        width: 20px;
+        height: 20px;
+        stroke-width: 7px;
+    }
+}
+
+@media screen and (min-width:201px) {
+    .restaurant_body {
+        padding-bottom: 30px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .title {
+        font-size: 0.7rem;
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .flex_column_div {
+        width: 95%;
+        font-size: 0.6rem;
+        padding-bottom: 20px;
+
+    }
+
+    .telegram,
+    .instagram {
+        width: 20px;
+        height: 20px;
+        stroke-width: 7px;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .restaurant_body {
+        padding-bottom: 40px;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .title {
+        font-size: 0.8rem;
+    }
+
+    .flex_row_div {
+        width: 90%;
+        gap: 0;
+    }
+
+    .flex_column_div {
+        width: 90%;
+        padding-bottom: 40px;
+        font-size: 0.7rem;
+    }
+
+    .telegram,
+    .instagram {
+        width: 25px;
+        height: 25px;
+        stroke-width: 10px;
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .restaurant_body {
+        padding-bottom: 50px;
+    }
+
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .title {
+        font-size: 0.9rem;
+    }
+
+    .flex_column_div {
+        width: 94%;
+        padding-bottom: 20px;
+        font-size: 0.8rem;
+    }
+
+    .telegram,
+    .instagram {
+        width: 30px;
+        height: 30px;
+        stroke-width: 15px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .flex_column_div {
+        width: 95%;
+        font-size: 1rem;
+    }
+
+    .flex_row_div {
+        gap: 50px;
+        width: 95%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .flex_column_div {
+        width: 85%;
+        font-size: 1.1rem;
+    }
+}
