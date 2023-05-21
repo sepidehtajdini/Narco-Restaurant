@@ -1,0 +1,35 @@
+.restaurant_footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: sticky;
+    bottom: 0;
+    height: fit-content;
+    font-family:"fantasy";
+    text-shadow: 0 1px 1px var(--main-bgcolor);
+}
+.restaurant_footer a{
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width:200px) {
+    .restaurant_footer {
+        font-size: 0.45rem;
+        bottom: -100vh;
+    }
+}
+@media screen and (min-width:201px) {
+    .restaurant_footer {
+        font-size: 0.55rem;
+    }
+}
+@media screen and (min-width:500px) {
+    .restaurant_footer {
+        font-size: 0.7rem;
+    }
+}
+@media screen and (min-width:768px) {
+    .restaurant_footer {
+        font-size: 1rem;
+    }
+}
