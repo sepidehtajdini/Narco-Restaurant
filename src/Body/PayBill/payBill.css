@@ -1,0 +1,95 @@
+table {
+    margin: auto;
+    font-weight: bold;
+}
+
+th,
+td {
+    border-radius: 5px;
+}
+
+th {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+td {
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 0 1px black;
+    text-align: center;
+    padding:5px;
+}
+
+tfoot td {
+    background-color: gray;
+}
+
+.darkred:hover {
+    background-color: lightcoral;
+}
+
+@media screen and (max-width:200px) {
+    table {
+        min-height: 80px;
+    }
+
+    .darkred {
+        box-shadow: 0 0 0 1px darkred;
+    }
+
+    th,
+    td {
+        width: 40px;
+        font-size: .7rem;
+    }
+
+    .number {
+        width: 40px;
+    }
+}
+
+@media screen and (min-width:201px) {
+    table {
+        min-height: 80px;
+    }
+
+    .darkred {
+        box-shadow: 0 0 0 2px darkred;
+    }
+
+    th,
+    td {
+        font-size: .7rem;
+        width: 80px;
+    }
+
+    .number {
+        width: 40px;
+    }
+}
+@media screen and (min-width:500px) {
+    table {
+        min-height: 100px;
+    }
+
+    .darkred {
+        box-shadow: 0 0 0 3px darkred;
+    }
+
+    th,
+    td {
+        font-size: 0.8rem;
+        width: 150px;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    th,
+    td {
+        width: 200px;
+        font-size: 1rem;
+    }
+}
