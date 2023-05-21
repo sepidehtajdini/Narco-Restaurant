@@ -1,0 +1,79 @@
+.anchor {
+    display: flex;
+    width: 80px;
+    height: 75px;
+    justify-content: center;
+    text-align: center;
+}
+
+.anchor_btn {
+    text-decoration: none;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    position: fixed;
+    border: 0;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.anchor_span {
+    display: none;
+}
+
+.anchor:hover .anchor_btn {
+    outline: 3px solid black;
+    box-shadow: 0 0 0 9px lightgray;
+    background-color: gray;
+    border: 3px solid;
+    color: transparent;
+    margin-top: 45px;
+    width: 60px;
+    height: 60px;
+}
+
+.anchor:hover .anchor_span {
+    display: block;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.div_about:hover+.sibling_2,
+.div_bill:hover+.div_gallery,
+.div_gallery:hover+.div_menu,
+.div_menu:hover+.div_bill,
+.div_bill:hover+.div_about {
+    border-bottom-right-radius: 15px;
+}
+
+.div_gallery:has(+.div_about:hover),
+.sibling_1:has(+ .div_gallery:hover),
+.div_gallery:has(+.div_menu:hover),
+.div_bill:has(+.div_about:hover),
+.div_menu:has(+.div_bill:hover) {
+    border-bottom-left-radius: 15px;
+}
+
+.div_bill:hover .a_bill {
+    background-image: url("../img/bill-green.svg");
+    border-color: green;
+}
+
+.div_about:hover .a_about {
+    background-image: url("../img/info-blue.svg");
+    border-color: rgb(30, 30, 255);
+}
+
+.div_menu:hover .a_menu {
+    background-image: url("../img/menu-yellow.svg");
+    border-color: yellow;
+}
+
+.div_gallery:hover .a_gallery {
+    background-image: url("../img/gallery-orange.svg");
+    border-color: orangered;
+}
