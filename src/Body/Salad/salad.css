@@ -1,0 +1,27 @@
+.salad {
+    background-image: url("./img/salad.png");
+    background-repeat: round;
+}
+
+.italianSalad {
+    background-image: url("../Salad/img/italian_salad.jpg");
+}
+
+.beafSalad {
+    background-image: url("../Salad/img/italian_salad_beaf.jpg");
+}
+
+.chickenSalad {
+    background-image: url("../Salad/img/italian_salad_chicken.jpg");
+}
+
+.schnitzelSezar {
+    background-image: url("./img/sezar_schnitzel.jpg");
+}
+
+.grilledChickenSezar {
+    background-image: url("./img/sezar_grilled.jpg");
+}
+.salad_wall{
+    background-image: url("./img/salad3.jpeg");
+}
