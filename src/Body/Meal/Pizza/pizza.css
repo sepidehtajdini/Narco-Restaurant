@@ -1,0 +1,23 @@
+.pizza_wall{
+    background-image: url("./img/pizzaWall.jpeg");
+}
+
+.atrinaPizza {
+    background-image: url("./img/atrina.jpg");
+}
+
+.bolognesePizza {
+    background-image: url("./img/bolognese_pizza.jpg");
+}
+
+.steakPizza {
+    background-image: url("./img/steakpizza.jpg");
+}
+
+.chickenPizza {
+    background-image: url("./img/chicken_pizza.jpg");
+}
+
+.peperoni {
+    background-image: url("./img/peperoni.jpg");
+}
