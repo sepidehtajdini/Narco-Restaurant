@@ -1,0 +1,91 @@
+* {
+    direction: rtl;
+    scroll-behavior: smooth;
+}
+
+.item_wall {
+    min-height: 600px;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+:root {
+    --main-bgcolor: rgb(37, 37, 37);
+    --main-txtcolor: white;
+    --header-bgcolor: rgba(59, 59, 59, 0.9);
+}
+
+.hide,
+#hide {
+    visibility: hidden;
+    display: none;
+    top: 0;
+}
+
+#show {
+    display: flex;
+    margin: auto;
+}
+
+.show_bill {
+    position: fixed;
+    min-height: 200px;
+    border-radius: 10px;
+    background-color: darkgray;
+    z-index: 10;
+}
+
+@media screen and (max-width:200px) {
+    .show_bill {
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .show_bill h6 {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (min-width:201px) {
+    .show_bill {
+        padding: 5px;
+        margin-left: 5vw;
+    }
+
+    .show_bill h6 {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (min-width:351px) {
+    .show_bill {
+        margin-left: 10vw;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .show_bill {
+        margin-left: 20vw;
+        padding: 10px;
+    }
+
+    .show_bill h6 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .show_bill {
+        padding: 12px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .show_bill {
+        margin-right: 25vw;
+        padding: 15px;
+    }
+}
