@@ -1,0 +1,267 @@
+.dropdown_btn {
+    background-image: url("./img/sort-down.svg");
+    background-repeat: no-repeat;
+    background-position: 26%;
+    background-size: 10%;
+}
+
+.header_btn {
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.header_btn_light {
+    color: var(--main-bgcolor);
+}
+
+.header_btn_dark {
+    color: var(--main-txtcolor);
+}
+
+.header_btn:hover {
+    color: black;
+    background-color: rgb(190, 190, 190);
+    border-color: darkgray;
+}
+
+.navbarToggleBtn {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.3em;
+    border: none;
+}
+
+#navbarToggleBtn_light {
+    background-image: url("./img/dark-bs-toggle.svg");
+}
+
+#navbarToggleBtn_dark {
+    background-image: url("./img/light-menu.svg");
+}
+
+.navbarToggleBtn:hover {
+    box-shadow: 0 0 0 2px rgb(65, 64, 64);
+}
+
+.selectBtn {
+    margin-top: 10px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: gray;
+
+}
+
+.selectBtn:hover {
+    background-color: rgb(5, 59, 41);
+    border-color: rgb(11, 129, 90);
+    text-shadow: 1px 1px 1px black;
+    color: var(--main-txtcolor);
+    font-weight: bold;
+}
+
+.close {
+    background-image: url("./img/close.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+.delete_btn {
+    background-color: rgb(197, 105, 105);
+    color: darkred;
+    border-radius: 5px;
+    padding: 0 2px;
+    margin-right: 15px;
+}
+
+.delete_btn:hover {
+    font-weight: bold;
+    border: 2px solid var(--main-txtcolor);
+    background-color: darkred;
+    color: var(--main-txtcolor);
+}
+
+@media screen and (max-width: 200px) {
+    .header_btn {
+        width: 90%;
+        height: 40px;
+        font-size: 0.6rem;
+        padding: 0;
+        border: 2px solid transparent;
+    }
+
+    .header_smallNavbar a {
+        padding-top: 10px;
+    }
+
+    .close {
+        width: 10px;
+        height: 10px;
+    }
+
+    .delete_btn {
+        border: 1px solid white;
+        box-shadow: 0 0 0 1px darkred;
+        font-size: xx-small;
+    }
+
+    .selectBtn {
+        width: 50px;
+        margin-top: 5px;
+        border-radius: 4px;
+        font-size: x-small;
+        box-shadow: 0 0 0 2px rgb(71, 71, 71);
+        border: 2px solid darkgray;
+    }
+
+    .selectBtn:hover {
+        box-shadow: 0 0 0 2px rgb(5, 59, 41);
+    }
+
+    .navbarToggleBtn {
+        width: 1.6rem;
+        height: 1.6rem;
+        background-size: 100%;
+    }
+}
+
+@media screen and (min-width:201px) {
+    .header_btn {
+        width: 90%;
+        height: 45px;
+        font-size: 0.7rem;
+        padding: 0;
+        border: 2px solid transparent;
+    }
+
+    .header_smallNavbar a {
+        padding-top: 10px;
+    }
+
+    .close {
+        width: 11px;
+        height: 11px;
+    }
+
+    .delete_btn {
+        border: 1px solid white;
+        box-shadow: 0 0 0 1px darkred;
+        font-size: xx-small;
+    }
+
+    .selectBtn {
+        width: 50px;
+        margin-top: 5px;
+        border-radius: 4px;
+        font-size: 0.74rem;
+        box-shadow: 0 0 0 2px rgb(71, 71, 71);
+        border: 2px solid darkgray;
+    }
+
+    .selectBtn:hover {
+        box-shadow: 0 0 0 2px rgb(5, 59, 41);
+    }
+
+    .navbarToggleBtn {
+        width: 1.7rem;
+        height: 1.7rem;
+        background-size: 100%;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .header_btn {
+        font-size: .8rem;
+        padding: 2px;
+        border: 3px solid transparent;
+    }
+
+    .header_smallNavbar a {
+        padding-top: 7px;
+    }
+
+    .close {
+        width: 15px;
+        height: 15px;
+    }
+
+    .delete_btn {
+        box-shadow: 0 0 0 2px darkred;
+        border: 2px solid white;
+        font-size: small;
+    }
+
+    .selectBtn {
+        width: 40px;
+        height: 20px;
+        margin-top: 5px;
+        border-radius: 3px;
+        font-size: 0.7rem;
+        padding: 0;
+    }
+
+    .navbarToggleBtn {
+        width: 1.8rem;
+        height: 1.8rem;
+        background-size: 120%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .header_btn {
+        height: 50px;
+        font-size: 1rem;
+    }
+
+    .header_smallNavbar a {
+        padding-top: 10px;
+    }
+
+    .close {
+        width: 20px;
+        height: 20px;
+    }
+
+    .selectBtn {
+        width: 70px;
+        height: 30px;
+        padding: 2px;
+        font-size: 0.9rem;
+        box-shadow: 0 0 0 3px rgb(71, 71, 71);
+    }
+
+    .selectBtn:hover {
+        box-shadow: 0 0 0 3px rgb(5, 59, 41);
+    }
+
+    .navbarToggleBtn {
+        width: 1.9rem;
+        height: 1.9rem;
+        background-size: 150%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .header_btn {
+        width: 120px;
+        font-weight: bold;
+    }
+
+    .selectBtn:hover {
+        box-shadow: 0 0 0 4px rgb(5, 59, 41);
+    }
+
+    .selectBtn {
+        height: 30px;
+        padding: 2px;
+        font-size: 1rem;
+    }
+}
