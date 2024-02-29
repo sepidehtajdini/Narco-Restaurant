@@ -1,10 +1,11 @@
+.desserts_wall {
+    background-image: url("../../img/photos/cakeWall.jpg");
+}
+
 .appleCake {
-    background-image: url("./img/sib-darchin.jpg");
+    background-image: url("../../img/photos/sib-darchin.jpg");
 }
 
 .cheeseCake {
-    background-image: url("./img/cheese_Cake.jpg");
-}
-.desserts_wall{
-background-image: url("./img/cakeWall.jpeg");
+    background-image: url("../../img/photos/cheese_Cake.jpg");
 }
