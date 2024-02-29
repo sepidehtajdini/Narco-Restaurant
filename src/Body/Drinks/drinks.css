@@ -1,9 +1,11 @@
 .hot_wall {
-    background-image: url("./img/hotWall.jpeg");
+    background-image: url("../../img/photos/hotWall.jpeg");
+    background-size: contain;
 }
 
 .cold_wall {
-    background-image: url("./img/coldWall.jpeg");
+    background-image: url("../../img/photos/coldWall.jpg");
+    background-size: contain;
 }
 
 .drink_type {
@@ -13,41 +15,41 @@
 }
 
 .juice {
-    background-image: url("./img/juice.jpg");
+    background-image: url("../../img/photos/juice.jpg");
 }
 
 .lemonade {
-    background-image: url("./img/lemonade.jpg");
+    background-image: url("../../img/photos/lemonade.jpg");
 }
 
 .peanutShake {
-    background-image: url("./img/peanut_shake.jpg");
+    background-image: url("../../img/photos/peanut_shake.jpg");
 }
 
 .nutellaShake {
-    background-image: url("./img/nutella_shake.jpg");
+    background-image: url("../../img/photos/nutella_shake.jpg");
 }
 
 .icedAmericano {
-    background-image: url("./img/ice-americano.jpg");
+    background-image: url("../../img/photos/ice-americano.jpg");
 }
 
 .icedLate {
-    background-image: url("./img/ice_late.jpg");
+    background-image: url("../../img/photos/ice_late.jpg");
 }
 
 .masala {
-    background-image: url("./img/Masala_Tea.jpg");
+    background-image: url("../../img/photos/masala_tea.jpg");
 }
 
 .hotChocolate {
-    background-image: url("./img/hot_chocolate.jpg");
+    background-image: url("../../img/photos/hot_chocolate.jpg");
 }
 
 .whiteChocolate {
-    background-image: url("./img/white_chocolate.jpg");
+    background-image: url("../../img/photos/white_chocolate.jpg");
 }
 
 .tea {
-    background-image: url("./img/tea.jpeg");
+    background-image: url("../../img/photos/tea.jpg");
 }

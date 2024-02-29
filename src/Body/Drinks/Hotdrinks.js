@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import MyContext from "../../MyContext";
 import MenuItem from "../MenuItem/MenuItem";
-import hotDrinkPhoto from "./img/chai-tea-svgrepo-com.svg";
+import hotDrinkPhoto from "../../img/svgs/chai-tea-svgrepo-com.svg";
 import "./drinks.css"
 export default function Hotdrinks() {
     const { drinks, order, flexType, titleBg } = useContext(MyContext);
