@@ -1,14 +1,15 @@
+.breakfast_wall {
+    background-image: url("../../img/photos/omletWall.jpeg");
+}
+
 .omlet {
-    background-image: url("./img/omlet.jpeg");
+    background-image: url("../../img/photos/omlet.jpg");
 }
 
 .friedEgg {
-    background-image: url("./img/friedEgg.jpeg");
+    background-image: url("../../img/photos/friedEgg.jpg");
 }
 
 .sausages {
-    background-image: url("./img/sausages.jpeg");
-}
-.breakfast_wall{
-    background-image: url("./img/omletWall.jpeg");
+    background-image: url("../../img/photos/sausages.jpg");
 }
