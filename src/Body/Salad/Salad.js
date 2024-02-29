@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import MyContext from "../../MyContext";
-import saladPhoto from "./img/salad-svgrepo-com.svg";
+import saladPhoto from "../../img/svgs/salad-svgrepo-com.svg";
 import MenuItem from "../MenuItem/MenuItem";
 import "./salad.css";
 export default function Salad({ id }) {

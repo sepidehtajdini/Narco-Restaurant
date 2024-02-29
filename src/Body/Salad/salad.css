@@ -1,22 +1,23 @@
+.salad_wall {
+    background-image: url("../../img/photos/salad3.jpg");
+}
+
 .italianSalad {
-    background-image: url("../Salad/img/italian_salad.jpg");
+    background-image: url("../../img/photos/italian_salad.jpg");
 }
 
 .beafSalad {
-    background-image: url("../Salad/img/italian_salad_beaf.jpg");
+    background-image: url("../../img/photos/italian_salad_beaf.jpg");
 }
 
 .chickenSalad {
-    background-image: url("../Salad/img/italian_salad_chicken.jpg");
+    background-image: url("../../img/photos/italian_salad_chicken.jpg");
 }
 
 .schnitzelSezar {
-    background-image: url("./img/sezar_schnitzel.jpg");
+    background-image: url("../../img/photos/sezar_schnitzel.jpg");
 }
 
 .grilledChickenSezar {
-    background-image: url("./img/sezar_grilled.jpg");
-}
-.salad_wall{
-    background-image: url("./img/salad3.jpeg");
+    background-image: url("../../img/photos/sezar_grilled.jpg");
 }
