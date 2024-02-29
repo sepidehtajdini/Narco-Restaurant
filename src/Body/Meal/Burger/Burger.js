@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import MenuItem from "../../MenuItem/MenuItem";
 import MyContext from "../../../MyContext";
-import burgerPhoto from "./img/burger-svgrepo-com.svg";
+import burgerPhoto from "../../../img/svgs/burger-svgrepo-com.svg";
 import "./burger.css";
 export default function Burger() {
     const { burgers, order, flexType,titleBg } = useContext(MyContext);
