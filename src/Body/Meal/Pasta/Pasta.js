@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import MyContext from "../../../MyContext";
 import MenuItem from "../../MenuItem/MenuItem";
-import pastaPhoto from "./img/noodles-spaguetti-svgrepo-com.svg";
+import pastaPhoto from "../../../img/svgs/noodles-spaguetti-svgrepo-com.svg";
 import "./pasta.css";
 export default function Pasta() {
     const {pastas, order, flexType,titleBg } = useContext(MyContext);
