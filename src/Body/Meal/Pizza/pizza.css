@@ -1,23 +1,23 @@
 .pizza_wall{
-    background-image: url("./img/pizzaWall.jpeg");
+    background-image: url("../../../img/photos/pizzaWall.jpg");
 }
 
 .atrinaPizza {
-    background-image: url("./img/atrina.jpg");
+    background-image: url("../../../img/photos/atrina.jpg");
 }
 
 .bolognesePizza {
-    background-image: url("./img/bolognese_pizza.jpg");
+    background-image: url("../../../img/photos/bolognese_pizza.jpg");
 }
 
 .steakPizza {
-    background-image: url("./img/steakpizza.jpg");
+    background-image: url("../../../img/photos/steakpizza.jpg");
 }
 
 .chickenPizza {
-    background-image: url("./img/chicken_pizza.jpg");
+    background-image: url("../../../img/photos/chicken_pizza.jpg");
 }
 
 .peperoni {
-    background-image: url("./img/peperoni.jpg");
+    background-image: url("../../../img/photos/peperoni.jpg");
 }

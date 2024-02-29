@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import MenuItem from "../../MenuItem/MenuItem";
 import MyContext from "../../../MyContext";
-import pizzaPhoto from "./img/pizza-svgrepo-com.svg";
+import pizzaPhoto from "../../../img/svgs/pizza-svgrepo-com.svg";
 import "./pizza.css";
 export default function Pizza() {
     const { pizzas, order, flexType,titleBg } = useContext(MyContext);
