@@ -1,5 +1,4 @@
 import { useContext } from 'react';
-import Alert from 'react-bootstrap/Alert';
 import Button from "../../Button/Button";
 import MyContext from '../../MyContext';
 import "./menuItem.css";
