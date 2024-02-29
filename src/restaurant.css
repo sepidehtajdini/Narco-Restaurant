@@ -60,13 +60,13 @@
     }
 }
 
-@media screen and (min-width:351px) {
+@media screen and (min-width:320px) {
     .show_bill {
         margin-left: 10vw;
     }
 }
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:468px) {
     .show_bill {
         margin-left: 20vw;
         padding: 10px;
