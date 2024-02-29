@@ -12,13 +12,13 @@ import Gallery from "./Gallery/Gallery";
 import PayBill from "./PayBill/PayBill";
 import About from "./About/About";
 import "./body.css";
-import { ReactComponent as DarkMode } from '../Header/img/toggle-on.svg';
-import { ReactComponent as LightMode } from "../Header/img/toggle-off.svg";
-import { ReactComponent as InstaLogo } from './img/instagram.svg';
-import { ReactComponent as TelegramLogo } from "./img/telegram-plane.svg";
+import { ReactComponent as DarkMode } from '../img/svgs/toggle-on.svg';
+import { ReactComponent as LightMode } from "../img/svgs/toggle-off.svg";
+import { ReactComponent as InstaLogo } from '../img/svgs/instagram.svg';
+import { ReactComponent as TelegramLogo } from "../img/svgs/telegram-plane.svg";
 export default function Body() {
     const { setBillDisplay, smallNavbarDisplay, dropdownMenu, setDropdownMenu, open_dropdownMenu,
-        titleBg, toggleDarkLight, darkModeClass, lightModeClass, headerBtnClass
+        titleBg, toggleDarkLight, darkModeClass, lightModeClass, headerBtnClass, setSmallNavbarDisplay,
     } = useContext(MyContext);
     return (
         <div className="restaurant_body">
@@ -27,29 +27,58 @@ export default function Body() {
                     btnClass={headerBtnClass + " header_btn dropdown_btn"}
                     text="منو"
                     onClick={open_dropdownMenu} />
-                <div className={dropdownMenu} onMouseLeave={() => setDropdownMenu("hide")}>
-                    <a href="#breakfast">صبحانه</a>
-                    <a href="#meal">غذاها</a>
-                    <a href="#appetizer">پیش غذا</a>
-                    <a href="#salad">سالاد</a>
-                    <a href="#drinks">نوشیدنی</a>
-                    <a href="#desserts">دسر</a>
+                <div className={dropdownMenu}>
+                    <a
+                        href="#breakfast"
+                        onClick={() => {
+                            setDropdownMenu("hide");
+                            setSmallNavbarDisplay("header_smallNavbar_hide")
+                        }}>صبحانه</a>
+                    <a href="#meal"
+                        onClick={() => {
+                            setDropdownMenu("hide");
+                            setSmallNavbarDisplay("header_smallNavbar_hide")
+                        }}>غذاها</a>
+                    <a href="#appetizer"
+                        onClick={() => {
+                            setDropdownMenu("hide");
+                            setSmallNavbarDisplay("header_smallNavbar_hide")
+                        }}>پیش غذا</a>
+                    <a href="#salad"
+                        onClick={() => {
+                            setDropdownMenu("hide");
+                            setSmallNavbarDisplay("header_smallNavbar_hide")
+                        }}>سالاد</a>
+                    <a href="#drinks"
+                        onClick={() => {
+                            setDropdownMenu("hide");
+                            setSmallNavbarDisplay("header_smallNavbar_hide")
+                        }}>نوشیدنی</a>
+                    <a href="#desserts"
+                        onClick={() => {
+                            setDropdownMenu("hide");
+                            setSmallNavbarDisplay("header_smallNavbar_hide")
+                        }}>دسر</a>
                 </div>
                 <Button
                     btnClass={headerBtnClass + " header_btn"}
                     text="صورت حساب"
-                    onClick={() => setBillDisplay("show_bill")} />
-                <a className={headerBtnClass + " header_btn"} href="#gallery">تصاویر</a>
-                <a className={headerBtnClass + " header_btn"} href="#about">درباره ما</a>
+                    onClick={() => { setBillDisplay("show_bill"); setSmallNavbarDisplay("header_smallNavbar_hide") }} />
+                <a href="#gallery"
+                    className={headerBtnClass + " header_btn"}
+                    onClick={() => setSmallNavbarDisplay("header_smallNavbar_hide")}>تصاویر</a>
+                <a href="#about"
+                    className={headerBtnClass + " header_btn"}
+                    onClick={() => setSmallNavbarDisplay("header_smallNavbar_hide")}>درباره ما</a>
                 <div className={titleBg + " toggler_div"}>
                     <DarkMode className={darkModeClass} onClick={toggleDarkLight} />
                     <LightMode className={lightModeClass} onClick={toggleDarkLight} />
                 </div>
                 <div className="small_nav_footer">
-                    <a href="https://www.instagram.com/3ptaj" target="_blank" >
+                    <a href="https://www.instagram.com/3ptaj" target="_blank" rel="noreferrer" >
                         <InstaLogo className="instagram" />
                     </a>
-                    <a href="https://t.me/s3p1d" target="_blank">
+                    <a href="https://t.me/s3pid" target="_blank" rel="noreferrer">
                         <TelegramLogo className="telegram" />
                     </a>
                 </div>
