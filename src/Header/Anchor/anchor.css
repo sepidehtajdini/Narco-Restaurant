@@ -59,21 +59,21 @@
 }
 
 .div_bill:hover .a_bill {
-    background-image: url("../img/bill-green.svg");
+    background-image: url("../../img/svgs/bill-green.svg");
     border-color: green;
 }
 
 .div_about:hover .a_about {
-    background-image: url("../img/info-blue.svg");
+    background-image: url("../../img/svgs/info-blue.svg");
     border-color: rgb(30, 30, 255);
 }
 
 .div_menu:hover .a_menu {
-    background-image: url("../img/menu-yellow.svg");
+    background-image: url("../../img/svgs/menu-yellow.svg");
     border-color: yellow;
 }
 
 .div_gallery:hover .a_gallery {
-    background-image: url("../img/gallery-orange.svg");
+    background-image: url("../../img/svgs/gallery-orange.svg");
     border-color: orangered;
 }
