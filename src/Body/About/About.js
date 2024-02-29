@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import MyContext from "../../MyContext";
-import { ReactComponent as InstaLogo } from '../img/instagram.svg';
-import { ReactComponent as TelegramLogo } from "../img/telegram-plane.svg";
-import infoPhoto from "../../Header/img/info-blue.svg";
+import { ReactComponent as InstaLogo } from '../../img/svgs/instagram.svg';
+import { ReactComponent as TelegramLogo } from "../../img/svgs/telegram-plane.svg";
+import infoPhoto from "../../img/svgs/info-blue.svg";
 import "./about.css";
 export default function About({ id }) {
     const { titleBg } = useContext(MyContext);
