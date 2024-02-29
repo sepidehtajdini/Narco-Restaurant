@@ -3,8 +3,8 @@ import MyContext from "../MyContext";
 import Button from "../Button/Button";
 import Anchor from "./Anchor/Anchor";
 import "./header.css";
-import { ReactComponent as DarkMode } from './img/toggle-on.svg';
-import { ReactComponent as LightMode } from "./img/toggle-off.svg";
+import { ReactComponent as DarkMode } from '../img/svgs/toggle-on.svg';
+import { ReactComponent as LightMode } from "../img/svgs/toggle-off.svg";
 export default function Header() {
     const { setBillDisplay, smallNavbarDisplay, setSmallNavbarDisplay, largeNavbarDisplay, setLargeNavbarDisplay,
         setFlexType, dropdownMenu, setDropdownMenu, titleBg, open_dropdownMenu, toggleDarkLight,
@@ -15,7 +15,7 @@ export default function Header() {
     useEffect(() => {
         window.addEventListener("resize", function () {
             if (this.window.innerWidth < 992) {
-                if (window.innerWidth < 500) {
+                if (window.innerWidth < 768) {
                     setFlexType("flex_column_div")
                 }
                 else {
@@ -100,7 +100,7 @@ export default function Header() {
                     href="#about" />
 
                 <div className={titleBg + " sibling_2"} />
-                <div className={dropdownMenu} onMouseLeave={() => setDropdownMenu("hide")}>
+                <div className={dropdownMenu} onClick={()=> setDropdownMenu("hide")}>
                     <a href="#breakfast">صبحانه</a>
                     <a href="#meal">غذاها</a>
                     <a href="#appetizer">پیش غذا</a>
