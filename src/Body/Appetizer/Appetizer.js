@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import MyContext from "../../MyContext";
 import MenuItem from "../MenuItem/MenuItem";
-import appetizerPhoto from "./img/french-fries-fries.svg";
+import appetizerPhoto from "../../img/svgs/french-fries-fries.svg";
 import "./appetizer.css";
 export default function Appetizer({ id }) {
     const { appetizers, order, flexType, titleBg } = useContext(MyContext);

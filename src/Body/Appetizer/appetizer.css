@@ -1,23 +1,23 @@
+.appetizer_wall {
+    background-image: url("../../img/photos/friesWall.jpeg");
+}
+
 .babyPotato {
-    background-image: url("./img/babyPotato.jpg");
+    background-image: url("../../img/photos/babyPotato.jpg");
 }
 
 .frenchFries {
-    background-image: url("./img/frenchFries.jpg");
+    background-image: url("../../img/photos/frenchFries.jpg");
 }
 
 .wings {
-    background-image: url("./img/wings.jpg");
+    background-image: url("../../img/photos/wings.jpg");
 }
 
 .mushrooms {
-    background-image: url("./img/mushrooms.jpg");
+    background-image: url("../../img/photos/mushrooms.jpg");
 }
 
 .garlicBread {
-    background-image: url("./img/garlicBread.jpg");
-}
-
-.appetizer_wall {
-    background-image: url("./img/friesWall.jpeg");
+    background-image: url("../../img/photos/garlicBread.jpg");
 }
