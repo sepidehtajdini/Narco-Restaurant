@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import MenuItem from "../../MenuItem/MenuItem";
 import MyContext from "../../../MyContext";
-import sandwichPhoto from "./img/sandwich-svgrepo-com.svg";
+import sandwichPhoto from "../../../img/svgs/sandwich-svgrepo-com.svg";
 import "./sandwich.css";
 export default function Sandwich() {
     const { sandwiches, order, flexType, titleBg } = useContext(MyContext);

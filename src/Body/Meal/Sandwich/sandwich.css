@@ -1,15 +1,15 @@
 .sandwich_wall {
-    background-image: url("./img/sandwichWall.jpeg");
+    background-image: url("../../../img/photos/sandwichWall.jpg");
 }
 
 .roastBeafSandwich {
-    background-image: url("./img/roastBeaf.jpg");
+    background-image: url("../../../img/photos/roastBeaf.jpg");
 }
 
 .steakSandwich {
-    background-image: url("./img/steak.jpg");
+    background-image: url("../../../img/photos/steak.jpg");
 }
 
 .springChicken {
-    background-image: url("./img/springchicken.jpg");
+    background-image: url("../../../img/photos/springchicken.jpg");
 }
